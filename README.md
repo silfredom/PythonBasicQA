@@ -20,7 +20,7 @@ Add to PYTHONPATH path_to_repo  to use it locally
 
 #### Install Behave -> BDD test, allure behave -> formatter for test results:
 ```
-sudo pip install behave
+pip install behave
 pip install allure-behave
 ```
 #### Install test dependencies:
@@ -31,9 +31,9 @@ pip install nose
 ```
 #### Install selenium and Chromedriver -> controlling browser: 
 ```
-sudo pip install selenium
-sudo pip install chromedriver
-sudo pip install chromedriver-binary
+pip install selenium
+pip install chromedriver
+pip install chromedriver-binary
 ```
 #### Install allure-> generate reports on the machine: 
 ```
