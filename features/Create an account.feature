@@ -7,7 +7,7 @@ Feature: Create an account
     And I Sign up using this information:
       | Email                 | Name                 | Last name           | Password            |
       | new valid email       | AutomationName       | Automation Lastname | Qwertyisbadpassword |
-      Then A message should be present stating: "We have sent you an email"
+      Then A message should be present stating: "Thank you for joining Cornershop Automationname. Confirm your email address. One hour grocery delivery is right around the corner."
 
 
 

@@ -29,7 +29,7 @@ def step_impl(context):
         register.signup(email, name, last_name, password)
 
 
-#@then(u'A confirmation message should be present stating: "{text}"')
+@then(u'A message should be present stating: "{text}"')
 def step_impl(context, text):
     driver = context.driver
     register = RegisterPage(driver)
