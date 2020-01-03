@@ -32,6 +32,7 @@ def before_scenario(context, scenario):
     print('New scenario started: ')
     print(scenario)
     print("setting the path according " + platform)
+    context.base_url = 'https://web.cornershopapp.com/'
 
     if platform == "win32":
         CHROMEDRIVER_PATH = context.config.userdata.get("path", CHROMEDRIVER_PATH_WIN)
